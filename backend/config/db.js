@@ -4,8 +4,8 @@ const URL="mongodb+srv://gantisudheer416:Sudheer@cluster0.z2ejf.mongodb.net/Buil
 const connectDB = async () => {
     try {
         await mongoose.connect(URL, {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
+            // useNewUrlParser: true,
+            // useUnifiedTopology: true,
         });
         console.log('MongoDB connected');
     } catch (error) {
