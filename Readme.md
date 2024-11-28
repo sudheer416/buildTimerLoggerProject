@@ -63,15 +63,7 @@ NODE_ENV=development
 - **URL**: `/api/timer/start`
 - **Method**: `POST`
 - **Description**: Starts a new timer if the repository is not already present.
-- **Request Body**:
-    ```json
-    {
-        "owner": "repository_owner",
-        "repo": "repository_name",
-        "username": "github_username",
-        "accessToken": "github_access_token"
-    }
-    ```
+
 - **Response**:
     ```json
     {
