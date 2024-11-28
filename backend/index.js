@@ -30,8 +30,6 @@ app.all("*",(req,res,next)=>{
     next(new AppError(`can't find ${req.originalUrl} on this server`))
 })
 
-<<<<<<< HEAD
+
 app.use(errorHandler);
-=======
-app.use(errorHandler);
->>>>>>> bf937a3e0f5af8b251b7b9c25ec7a346bfc71ae9
+
