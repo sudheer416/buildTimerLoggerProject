@@ -3,6 +3,10 @@
 - **Email**: gantisudheer416@gmail.com
 - **Repository URL**: https://github.com/sudheer416/buildTimerLoggerProject
 - **Deployed Application backend URL**: https://build-timer-logger.vercel.app
+- ** Application  URL**: https://buildtimerlogger-frontend.vercel.app/
+
+![image](https://github.com/user-attachments/assets/9c414c4a-a0cd-4082-8b1a-dd71d21234ef)
+
 
 ## Implementation Details
 
