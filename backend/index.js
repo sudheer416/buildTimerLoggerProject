@@ -19,7 +19,7 @@ app.use(express.json());
 
 connectDB();
 
-app.use('/api/timer', timerRoutes);
+app.use('/', timerRoutes);
 
 app.use(errorHandler);
 
