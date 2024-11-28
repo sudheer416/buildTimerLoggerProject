@@ -1,8 +1,8 @@
 ### Project Information
 - **Name**: Build  your own  timer Challenger
 - **Email**: gantisudheer416@gmail.com
-- **Repository URL**: 
-- **Deployed Application URL**: [Your Deployed Application URL]
+- **Repository URL**: https://github.com/sudheer416/buildTimerLoggerProject
+- **Deployed Application backend URL**: https://build-timer-logger.vercel.app
 
 ## Implementation Details
 
