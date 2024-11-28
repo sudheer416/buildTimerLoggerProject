@@ -3,7 +3,8 @@ const URL="mongodb+srv://gantisudheer416:Sudheer@cluster0.z2ejf.mongodb.net/Buil
 
 const connectDB = async () => {
     try {
-        await mongoose.connect(URL, {
+        await mongoose.connect(URL)
+                               // {
             // useNewUrlParser: true,
             // useUnifiedTopology: true,
         // });
