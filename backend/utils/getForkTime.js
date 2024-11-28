@@ -7,7 +7,9 @@ async function getForkTime(owner, repo, username, accessToken) {
                 Authorization: `token ${accessToken}`
             }
         });
-        console.log()
+        console.log(`https://api.github.com/repos/${owner}/${repo}`)
+       
+       
         //const fork = response.data.find(fork => fork.owner.login === username);
         const res ={
             fork:response.data.fork,
@@ -15,7 +17,7 @@ async function getForkTime(owner, repo, username, accessToken) {
             repo:response.data.name
         }
 
-       console.log(res)
+       console.log(response.data)
         return   res ;
     } catch (error) {
         console.error('Error fetching fork time:', error);
