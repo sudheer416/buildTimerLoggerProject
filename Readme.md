@@ -171,9 +171,12 @@ The `Timer` component is a React-based timer that allows users to track the star
 
 
 ### Time Taken
-- Start Time (Fork Time):
-- End Time:
-- Total Duration:
+This my actual time
+![image](https://github.com/user-attachments/assets/d5b081d6-95fe-4228-a0c6-16099295e77c)
+
+- Start Time (Fork Time): 27-11-2024  (around 11 pm)
+- End Time: 29-11-2024  (arond 3am)
+- Total Duration:26hours
 
 
 ### Database Schema
